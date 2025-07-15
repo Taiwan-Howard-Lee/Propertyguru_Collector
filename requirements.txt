@@ -1,0 +1,13 @@
+# PropertyGuru Pure Data Scraper Requirements
+
+# Core scraping
+selenium>=4.15.0
+undetected-chromedriver>=3.5.4
+
+# Data processing (minimal)
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Development
+pytest>=7.4.0
