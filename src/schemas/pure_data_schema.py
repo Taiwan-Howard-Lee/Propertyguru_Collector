@@ -45,7 +45,12 @@ class PureDataSchema:
         # 🏠 BASIC PROPERTY DATA
         property_record["property_name"] = name
         property_record["price_numeric"] = price_num
-        property_record["price_formatted"] = price_formatted if price_formatted else f"S$ {price_num:,}"
+        if price_formatted:
+            property_record["price_formatted"] = price_formatted
+        elif price_num and isinstance(price_num, (int, float)):
+            property_record["price_formatted"] = f"S$ {price_num:,.0f}"
+        else:
+            property_record["price_formatted"] = "Price on request"
         property_record["bedrooms"] = bedrooms
         property_record["bathrooms"] = bathrooms if bathrooms else bedrooms
         property_record["floor_area_sqft"] = size_sqft
