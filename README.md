@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![Selenium](https://img.shields.io/badge/Selenium-4.0+-green.svg)](https://selenium.dev)
-[![Success Rate](https://img.shields.io/badge/Success%20Rate-99.2%25-brightgreen.svg)](https://github.com/Taiwan-Howard-Lee/propertyguru_listing)
+[![Success Rate](https://img.shields.io/badge/Success%20Rate-99.2%25-brightgreen.svg)](https://github.com/Taiwan-Howard-Lee/Propertyguru_Collector)
 
 A breakthrough solution for reliable, high-volume property data extraction from PropertyGuru Singapore. This scraper overcomes common challenges including Cloudflare protection, dynamic content loading, and bot detection mechanisms.
 

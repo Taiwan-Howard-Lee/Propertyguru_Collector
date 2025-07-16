@@ -76,12 +76,19 @@ chromedriver
 geckodriver
 *.crx
 
-# Scraped Data
-data/
+# Scraped Data (keep structure but not actual scraped data)
+data/*.json
+data/extraction_*.json
+data/pure_data_*.json
+src/data/*.json
+src/data/extraction_*.json
 scraped_data/
 *.csv
-*.json
 *.xlsx
+
+# Keep important documentation in data folder
+!data/demo.md
+!data/README.md
 
 # Docker
 .dockerignore

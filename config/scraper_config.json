@@ -1,0 +1,24 @@
+{
+    "scraping": {
+        "default_pages": 2600,
+        "default_start_page": 1,
+        "delay_range": [3, 8],
+        "max_retries": 3,
+        "timeout": 30
+    },
+    "chrome": {
+        "debug_port": 9222,
+        "user_data_dir": "chrome_data"
+    },
+    "output": {
+        "data_dir": "data",
+        "checkpoint_interval": 50,
+        "backup_interval": 100
+    },
+    "schema": {
+        "version": "pure_data_v1.0",
+        "type": "raw_data_only",
+        "required_fields": ["property_name", "price_numeric", "bedrooms", "property_type"],
+        "no_analysis": true
+    }
+}
